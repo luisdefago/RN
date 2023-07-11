@@ -8,8 +8,8 @@ import {
     FlatList,
 } from "react-native";
 import { StyleSheet, StatusBar } from "react-native";
-import TaskItem from "./components/taskItem/taskItem";
-import InputTask from "./components/inputTask/inputTask";
+import TaskItem from "./components/taskItem";
+import InputTask from "./components/inputTask";
 
 export default function App() {
     const [task, setTask] = useState("");
