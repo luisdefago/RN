@@ -3,11 +3,9 @@ import {
     Modal,
     Text,
     View,
-    TextInput,
     Button,
     SafeAreaView,
     FlatList,
-    TouchableOpacity,
 } from "react-native";
 import { StyleSheet, StatusBar } from "react-native";
 import TaskItem from "./components/taskItem/taskItem";
