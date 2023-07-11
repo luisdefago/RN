@@ -33,8 +33,6 @@ export default function App() {
     };
 
     const onHandlerCreateTask = () => {
-        console.log("onHandlerCreateTask");
-        console.warn({ task });
         setTasks([
             ...tasks,
             {
