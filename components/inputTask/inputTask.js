@@ -1,14 +1,14 @@
 import { Button, TextInput, View } from "react-native";
 import { StyleSheet } from "react-native";
 
-const InputTask = ({
+export default function InputTask ({
     borderColor,
     onHandlerFocus,
     onHandlerBlur,
     onHandlerChangeText,
     task,
     onHandlerCreateTask,
-}) => {
+}) {
     return (
         <View style={styles.inputContainer}>
             <TextInput
@@ -48,5 +48,3 @@ const styles = StyleSheet.create({
         fontSize: 14,
     },
 });
-
-export default InputTask;
