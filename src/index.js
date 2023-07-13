@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: "#fff",
         marginHorizontal: 20,
-        paddingTop: StatusBar.currentHeight,
+        marginTop: 20 + StatusBar.currentHeight,
     },
     inputContainer: {
         flexDirection: "row",
